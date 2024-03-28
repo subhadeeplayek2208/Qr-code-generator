@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>QR Code Generator</title>
+        <meta name="description" content="">
+        <meta name="author" content="Subhadeep Layek">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <section>
+            <div class="wrapper">
+                
+                <p class="codeGenerator">QR Code Generator</p>
+                <p class="EnterUrl">Paste a url or enter text to create QR code</p>
+                <div class="inputField">
+                    <input type="text" class="textField"  id="qr-text" placeholder="Enter Text or url">
+                    
+                </div>
+                <div class="G-Button">
+                    <button type="button" id="generatebtnId" value=""> Generate QR code</button>
+                </div>
+
+                <div class="qrcodebody">
+                </div>
+                <div class="D-Button">
+                    <a href="" src="" download="MyQR.png" id="downloadbtnId"><button type="button" id="downloadbtnId" value="" > Download</button></a> 
+                </div>
+                <p class="gaurav">
+                    &#169; Gaurav jain
+                </p>
+            </div>
+            
+        </section>
+        <script src="./script.js" async defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" async defer></script>
+        
+    </body>
+</html>
