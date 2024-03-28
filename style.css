@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,200&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+
+}
+
+body {
+    background-image: url('./img/back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.wrapper{
+    width: 23rem;
+    /* height: 12.5rem; */
+    background-color: black;
+    border: 2px solid aqua;
+    color: white;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.25rem;
+    /* text-align: center; */
+}
+
+.codeGenerator{
+    font-size:x-large;
+}
+.EnterUrl{
+    color: rgb(100, 214, 72);
+    /* font-size:large; */
+}
+
+.textField{
+    padding: 10px;
+    width: 93%;
+    border: 3px solid red;
+    border-radius: 7px;
+    margin-top: 1rem;
+}
+
+.G-Button button{
+    padding: 6px;
+    width: 100%;
+    border: 3px solid red;
+    border-radius: 7px;
+    margin-top: 1rem;
+    font-size: large;
+    background-image: linear-gradient(to right, red , yellow);
+    /* background-color: linear ; */
+}
+
+.G-Button button:hover{
+    /* background-image: linear-gradient(to right, red , rgb(0, 255, 238)); */
+    background: rgb(251,107,255);
+    background: linear-gradient(90deg, rgba(251,107,255,1) 33%, rgba(89,70,185,1) 100%);
+}
+
+.D-Button button{
+    padding: 6px;
+    width: 40%;
+    border: 3px solid red;
+    border-radius: 7px;
+    margin-top: 1rem;
+    font-size: large;
+    /* text-align: right; */
+    background-image: linear-gradient(to right, red , yellow);
+}
+
+.D-Button{
+    text-align: right;
+}
+
+.D-Button button:hover{
+    /* background-image: linear-gradient(to right, red , rgb(0, 255, 238)); */
+    background: rgb(251,107,255);
+    background: linear-gradient(90deg, rgb(114, 255, 107) 33%, rgb(81, 200, 208) 100%);
+}
+
+.qrcodebody{
+    /* max-width: 100%;
+    max-height: 100%; */
+    /* border: 2px solid white ; */
+    display: grid;
+    place-items: center;
+}
+
+.qrcodebody img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 1rem;
+    padding: .25rem;
+    background-image: linear-gradient(to right, red , yellow);
+    border-radius: 4px;
+    /* backy: #35ffffe7, #ff6600f3,  #ffdf53, #4cf54ce3, #ffff4ae3, #f64ef6f0; */
+}
+.gaurav{
+    font-size: .65rem;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
